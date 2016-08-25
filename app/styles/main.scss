@@ -10,3 +10,15 @@ footer {
 		padding: 5px 10px 5px 0;
 	}
 }
+
+.deviceBoxContainer {
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 2px;
+	text-align: center;
+	width: 90px;
+}
+
+.deviceBoxContainer:hover {
+	background-color: #BCD619;
+}

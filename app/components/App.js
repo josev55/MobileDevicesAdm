@@ -3,10 +3,10 @@ import { Link } from 'react-router';
 
 const App = ({ children }) =>
     <div>
-        <h1>Filter table</h1>
+        <h1>IMG</h1>
         { children }
         <footer>
-            <Link to="/">Filterable Table</Link>
+            <Link to="/">Pedro Carbonell</Link>
             <Link to="/about">About</Link>
         </footer>
     </div>;
@@ -14,5 +14,5 @@ const App = ({ children }) =>
 App.propTypes = {
     children: PropTypes.object
 };
-
+// kyguerra@falabella.cl
 export default App;
